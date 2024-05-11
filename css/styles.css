@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(to right, #131313, #2c3001);
+    background: url(../images/bg.png);
+}
+
+.site {
+    font-family: 'Holtwood One SC', sans-serif;
+}
+
+.marge-button {
+    margin-left: 15px;
+    /* Ajouter une marge à gauche du bouton */
+}
+
+.text-logo {
+    font-family: 'Holtwood One SC', sans-serif;
+    color: white;
+    text-shadow: 2px 2px #e73e0a;
+    font-size: 50px;
+    padding: 20px 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.admin table {
+    font-size: 30px;
+    /* Taille de police pour tout le tableau */
+    font-family: Arial, sans-serif;
+    /* Police de caractères par défaut */
+    text-shadow: none;
+}
+
+.admin th,
+.admin td {
+    font-size: 25px;
+    /* Taille de police pour les en-têtes et les cellules de données */
+    font-family: Arial, sans-serif;
+    /* Police de caractères par défaut */
+    text-shadow: none;
+}
+
+/*.wrapper-1 {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    position: fixed;
+    background: linear-gradient(to right, #8bbf1c, #ddee26);
+    z-index: 10000;
+    text-align: right;
+}*/
+
+.p8 {
+    width: 100%;
+    height: 500px;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.text-logo span {
+    color: #ffd301;
+    text-shadow: 0px 0px #ffd301;
+}
+
+.nav {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.tab-pane {
+    color: none;
+    font-size: 18px;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.tab-pane.active {
+    background-color: none;
+}
+
+.tab-pane:hover {
+    color: #720527;
+    background-color: none;
+}
+
+.img-thumbnail {
+    position: relative;
+}
+
+.img-thumbnail img {
+    background: #ffd301;
+    width: 100%;
+    max-height: 300px;
+
+}
+
+.img-thumbnail .fac {
+    background: #5cb85c;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-shadow: 2px 2px #333;
+    position: absolute;
+    right: -10px;
+    top: 16px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.img-thumbnail .fac:before {
+    border: 4px solid transparent;
+    border-bottom: 4px solid #4a934a;
+    border-left: 4px solid #4a934a;
+    content: "";
+    position: absolute;
+    right: 1px;
+    top: -8px;
+}
+
+.img-thumbnail .caption {
+    padding: 9px;
+}
+
+.img-thumbnail .caption h4 {
+    color: #e7480f;
+    font-size: 18px;
+}
+
+.img-thumbnail .btn-order {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #2f0fe7;
+    text-shadow: 2px 2px #333;
+}
+
+.img-thumbnail .btn-order:hover,
+.img-thumbnail .btn-order:focus {
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+
+/* Partie Admin*/
+.admin {
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.help-inline {
+    color: #ed0808;
+}
